@@ -1,0 +1,15 @@
+echo OFF
+
+echo ---- Preparar aquivos para subir ----
+git add .
+
+
+echo --- Mensagem para Deus ----
+git commit -m "Descrição do commit"
+
+echo ---- Enviar para Nuvem ----
+git push
+
+echo ---- Fim ----
+
+pause

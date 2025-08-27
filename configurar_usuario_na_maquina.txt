@@ -1,0 +1,22 @@
+echo OFF
+
+echo ---- Retirando usuario Github ----
+git config --global --unset-all user.email
+git config --global --unset-all user.name
+
+
+echo ---- Configurando usuario GitHub ----
+git config --global user.name "Aline Chahine"
+git config --global user.email aline.chahine@proton.me
+
+
+echo ---- Mostrando a configuracao atual do GitHub no computador ----
+git config --list
+
+echo ---- Download da pasta da Aula - PWI ----
+echo git clone https://github.com/aichahine/pwi-davi.vilar2025.git
+
+echo ---- Fim ----
+echo ---- Joao lindo saudades ----
+
+pause
