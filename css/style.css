@@ -1,0 +1,113 @@
+/* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX). */
+
+/* "reset" */
+/* html, body, header, main, ul {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    align-items: center;
+    background-color: #fdf8df;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    height: 15mm;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section label {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 2.5px;
+}
+
+#newTask, #button {
+    background-color: white;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding: 10px;
+}
+
+#newTask:hover {
+    background-color: #efefef;
+}
+
+#button:hover {
+    background-color: rgb(220, 255, 220);
+}
+
+h2 {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #efefef;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-top: 20px;
+    max-width: 95%;
+    padding: 2mm;
+}
+
+li:hover {
+    border: 1.5px solid black;
+}
+
+li button {
+    border: 1px;
+    display: flex;
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+li button:hover {
+    background-color: rgb(250, 210, 210);
+} */
+
+
+/* FALTA IMPLEMENTAR */
+/* li.doneTask {
+    text-decoration: line-through;
+} */
