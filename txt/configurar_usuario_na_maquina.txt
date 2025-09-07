@@ -14,7 +14,7 @@ echo ---- Mostrando a configuracao atual do GitHub no computador ----
 git config --list
 
 echo ---- Download da pasta da Aula - PWI ----
-echo git clone https://github.com/aichahine/pwi-davi.vilar2025.git
+echo git clone https://github.com/aichahine/2025-PWI-2SEM.git
 
 echo ---- Fim ----
 echo ---- Joao lindo saudades ----
