@@ -1,3 +1,6 @@
+# 16-09-205
+HTML: habilitação do GitHub Pages como servidor de páginas web
+
 # 09-09-2025
 HTML: links e diferentes comportamentos de abertura, favicon, tabelas, CSS em linha, em página e externo (arquivo 2025-09-09.html)
 
@@ -17,4 +20,4 @@ Git e GitHub
 Estrutura de projeto MVC (Model | View | Control) e estrutura básica de pastas
 
 # 2025-PWI-2SEM
-Tarefas das aulas de Programação Web I, primeiro semestre do curso técnico de Desenvolvimento de Sistemas, segundo semestre de 2025 - período noturno, da Etec Professor Camargo Aranha
+Tarefas das aulas de Programação Web I, primeiro semestre do curso técnico de Desenvolvimento de Sistemas, segundo semestre de 2025 - período noturno
