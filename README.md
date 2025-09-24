@@ -1,3 +1,6 @@
+# 23-09-2025
+HTML: utilização do atributo Class e tag div
+
 # 16-09-205
 HTML: habilitação do GitHub Pages como servidor de páginas web
 

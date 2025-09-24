@@ -1,23 +1,41 @@
-/* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX). */
+/* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX).
 
 body {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     background-color: #F0EDE5;
     text-align: justify;
-    color: #6BAF92;
+    color: black;
 }
 
-h1 {
-    background-color: #A8D5BA;
-    text-align: center;
-    color: #354F52;
-    border: 2px solid #354F52;
-}
+/* Barra lateral*/
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1; /* para que o z-index funcione, position precisa ser diferente de static */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
 
-h2 {
-    background-color: #354F52;
-    text-align: center;
-    color: #F0EDE5;
-    border: 2px solid #354F52;
-}
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  } */
