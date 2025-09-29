@@ -1,41 +1,92 @@
-/* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX).
+/* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX). */
 
-body {
-    font-family: Verdana, sans-serif;
-    font-size: 14px;
-    background-color: #F0EDE5;
-    text-align: justify;
-    color: black;
+
+/* #BCD1BD */ 
+/* #D8B5AB */ 
+/* #EBDEBE */ 
+/* #BFD5DE */ 
+
+
+body, html {
+  background: #BCD1BD;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Barra lateral*/
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1; /* para que o z-index funcione, position precisa ser diferente de static */
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
+.barra-superior {
+  border: 1.5px solid black;
+  background: #D8B5AB;
+  color: white;
+  width: 100%;
+}
 
-  .main {
-    margin-left: 160px;
-    padding: 0px 10px;
-  } */
+.barra-superior img {
+  width: 30px;
+}
+
+.barra-superior ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.barra-superior li {
+  margin: 8px
+}
+
+.conteudo {
+  border: 1.5px solid black;
+  background: #EBDEBE;
+}
+
+.divisao {
+  border: 1.5px solid black;
+  color: white;
+  display: inline-flex;
+  margin: 12px;
+  text-align: center;
+}
+
+.divisao-esquerda {
+  background: #BFD5DE;
+  width: 299px;
+}
+
+.divisao-central {
+  background: #BFD5DE;
+  width: 663px;
+}
+
+.divisao-direita {
+  background:#BFD5DE;
+  width: 299px;
+}
+
+footer {
+  border: 1.5px solid black;
+  background: #D8B5AB;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.rodape img {
+  width: 30px;
+}
+
+.rodape ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.rodape li {
+  margin: 8px
+}
