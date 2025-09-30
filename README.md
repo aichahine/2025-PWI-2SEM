@@ -1,3 +1,6 @@
+# 30-09-2025
+Estilização com CSS em arquivo externo
+
 # 23-09-2025
 HTML: utilização do atributo Class e tag div
 
