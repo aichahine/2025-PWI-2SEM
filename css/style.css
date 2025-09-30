@@ -1,33 +1,43 @@
 /* CSS: estilizar a página, os botões, imputs, alterar atributos dos elementos da tela de acordo com a interação do usuário para uma melhor experiência do usuário (UX). */
 
-
 /* #BCD1BD */ 
 /* #D8B5AB */ 
 /* #EBDEBE */ 
 /* #BFD5DE */ 
 
-
-body, html {
-  background: #BCD1BD;
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
+* {
   box-sizing: border-box;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body {
+  background: #BCD1BD; /* verde */
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.5;
+}
+
 .barra-superior {
   border: 1.5px solid black;
-  background: #D8B5AB;
+  background: #D8B5AB; /* rosa */
   color: white;
   width: 100%;
 }
 
+/* logo */
 .barra-superior img {
   width: 30px;
+  margin: 8px;
+  display: flex;
+}
+
+.barra-superior li img {
+  width: 30px;
+  margin: 8px;
 }
 
 .barra-superior ul {
@@ -36,35 +46,29 @@ body, html {
   list-style-type: none;
 }
 
-.barra-superior li {
-  margin: 8px
-}
-
-.conteudo {
-  border: 1.5px solid black;
-  background: #EBDEBE;
-}
-
 .divisao {
   border: 1.5px solid black;
   color: white;
   display: inline-flex;
   margin: 12px;
-  text-align: center;
+}
+
+.divisao img {
+  width: 60px;
 }
 
 .divisao-esquerda {
-  background: #BFD5DE;
+  background: #BFD5DE; /* azul */
   width: 299px;
 }
 
 .divisao-central {
-  background: #BFD5DE;
-  width: 663px;
+  background: #BFD5DE; /* azul */
+  width: 596px;
 }
 
 .divisao-direita {
-  background:#BFD5DE;
+  background:#BFD5DE; /* azul */
   width: 299px;
 }
 
@@ -77,16 +81,20 @@ footer {
   bottom: 0px;
 }
 
+/* miniatura */
 .rodape img {
+  width: 60px;
+  margin: 8px;
+  display: flex;
+}
+
+.rodape li img {
   width: 30px;
+  margin: 8px
 }
 
 .rodape ul {
   align-items: center;
   display: flex;
   list-style-type: none;
-}
-
-.rodape li {
-  margin: 8px
 }
