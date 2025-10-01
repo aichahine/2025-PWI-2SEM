@@ -17,10 +17,6 @@ body {
   font-size: 14px;
 }
 
-p {
-  line-height: 1.5;
-}
-
 .barra-superior {
   border: 1.5px solid black;
   background: #D8B5AB; /* rosa */
@@ -53,7 +49,7 @@ p {
   margin: 12px;
 }
 
-.divisao img {
+.divisao-esquerda img {
   width: 60px;
 }
 
@@ -62,14 +58,28 @@ p {
   width: 299px;
 }
 
+.divisao-central img {
+  width: 60px;
+}
+
 .divisao-central {
   background: #BFD5DE; /* azul */
   width: 496px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divisao-central ul {
+  list-style-type: none;
 }
 
 .divisao-direita {
   background:#BFD5DE; /* azul */
-  width: 299px;
+  width: 360px;
+}
+
+.divisao-direita img {
+  width: 360px;
 }
 
 footer {
