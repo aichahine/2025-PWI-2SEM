@@ -10,6 +10,7 @@
   font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 .barra-superior {
   border: 1.5px solid black;
   background: #D8B5AB; /* rosa */
-  color: white;
   width: 100%;
 }
 
